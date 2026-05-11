@@ -275,8 +275,8 @@ body.dark .pill:hover {
     </div>
     <div class="hero-quick">
       <div class="hq"><div class="hq-num">8.31</div><div class="hq-lbl">CGPA</div></div>
-      <div class="hq"><div class="hq-num">5+</div><div class="hq-lbl">Projects</div></div>
-      <div class="hq"><div class="hq-num">4+</div><div class="hq-lbl">Certs</div></div>
+      <div class="hq"><div class="hq-num">7+</div><div class="hq-lbl">Projects</div></div>
+      <div class="hq"><div class="hq-num">7+</div><div class="hq-lbl">Certs</div></div>
     </div>
   </div>
   <div class="hero-right">
@@ -318,16 +318,16 @@ body.dark .pill:hover {
         <div class="about-text">
           <p>Hey there! I'm <span class="hlp">Saniya Gupta</span>, a Computer Science undergrad at <span class="hl">Jaypee University of Information Technology, Solan</span> maintaining a CGPA of 8.31. I love sitting at the intersection of intelligent systems and beautiful design.</p>
           <p>My technical world spans <span class="hl">Machine Learning</span>, <span class="hl">AWS Cloud Architecture</span>, and <span class="hl">UI/UX Design with Figma</span> — from building PCOS risk predictors to serverless cloud systems and polished user interfaces at Hustlee.</p>
-          <!-- <p>Beyond the screen, I'm a <span class="hlp">Senior Under Officer in NCC</span> — the highest student rank — a role that's built my leadership, discipline, and ability to stay composed under pressure. I'm also the Creative Head at JUIT's Training & Placement Cell.</p> -->
+          <p>Beyond the screen, I'm a <span class="hlp">Senior Under Officer in NCC</span> — the highest student rank — a role that's built my leadership, discipline, and ability to stay composed under pressure. I'm also the Creative Head at JUIT's Training & Placement Cell.</p>
           <p>Currently seeking internships or roles where I can bring both technical depth and design thinking to real-world problems. Let's build something meaningful! ✨</p>
         </div>
         <div class="about-chips">
           <span class="chip chip-pink">ML Enthusiast</span>
           <span class="chip chip-olive">AWS Certified</span>
           <span class="chip chip-pink">UI/UX · Figma</span>
-          <!-- <span class="chip chip-brown">NCC SUO</span> -->
-          <!-- <span class="chip chip-olive">Hackathon Finalist</span> -->
-          <span class="chip chip-brown">Creative Head Training and Placement Cell, JUIT</span>
+          <span class="chip chip-brown">NCC SUO</span>
+          <span class="chip chip-olive">Hackathon Finalist</span>
+          <span class="chip chip-brown">Creative Head · T&P Cell, JUIT</span>
         </div>
       </div>
     </div>
@@ -442,41 +442,78 @@ body.dark .pill:hover {
     <h2 class="sec-title">Featured <em>Projects</em></h2>
     <div class="sec-divider"></div>
     <div class="proj-grid fade-up">
+
       <div class="proj-card pc1">
-        <span class="proj-badge pb-pink">Machine Learning</span>
+        <span class="proj-badge pb-pink">Machine Learning · Women's Health</span>
         <div class="proj-title">PCOS Risk Prediction System</div>
-        <div class="proj-desc">Built an ML model predicting PCOS risk from medical datasets with real-time predictions through a clean Streamlit web interface. A project close to my heart — using tech for women's health.</div>
-        <div class="stack-row"><span class="stag">Python</span><span class="stag">Pandas</span><span class="stag">Scikit-learn</span><span class="stag">Streamlit</span></div>
-        <div class="proj-links"><span class="plink plink-g">Private Repo</span> </a></div>
+        <div class="proj-desc">Trained a classification model on a real-world healthcare dataset (541 records) to predict PCOS risk from clinical indicators. Deployed as an interactive Streamlit web app enabling instant, non-technical access to predictions. A project close to my heart — using tech for women's health.</div>
+        <div class="stack-row"><span class="stag">Python</span><span class="stag">Pandas</span><span class="stag">Scikit-learn</span><span class="stag">Streamlit</span><span class="stag">NumPy</span></div>
+        <div class="proj-links">
+          <a href="https://github.com/S-aniya/pcos-risk-prediction" class="plink plink-g" target="_blank">&#128279; GitHub</a>
+        </div>
       </div>
+
+      <div class="proj-card pc2">
+        <span class="proj-badge pb-brown">Hybrid ML · Healthcare</span>
+        <div class="proj-title">Medical Diagnosis Hybrid ML System</div>
+        <div class="proj-desc">Architected a hybrid model combining Naive Bayes (probabilistic reasoning) and Artificial Neural Networks (deep learning) for medical diagnosis prediction — improving accuracy and reliability over single-model baselines on healthcare datasets.</div>
+        <div class="stack-row"><span class="stag">Python</span><span class="stag">Naive Bayes</span><span class="stag">ANN</span><span class="stag">Scikit-learn</span><span class="stag">Jupyter</span></div>
+        <div class="proj-links">
+          <a href="https://github.com/S-aniya/medical-diagnosis-hybrid-ml" class="plink plink-g" target="_blank">&#128279; GitHub</a>
+        </div>
+      </div>
+
+      <div class="proj-card pc3">
+        <span class="proj-badge pb-pink">Machine Learning · Data Science</span>
+        <div class="proj-title">Skill-Based Salary Prediction</div>
+        <div class="proj-desc">Built a regression-based salary estimation model trained on real Stack Overflow Developer Survey data — predicting developer salaries from skills, experience, and role. Includes automated preprocessing, feature engineering, and model evaluation pipeline.</div>
+        <div class="stack-row"><span class="stag">Python</span><span class="stag">Regression</span><span class="stag">Pandas</span><span class="stag">Scikit-learn</span><span class="stag">Stack Overflow Survey</span></div>
+        <div class="proj-links">
+          <a href="https://github.com/S-aniya/salary-prediction" class="plink plink-g" target="_blank">&#128279; GitHub</a>
+        </div>
+      </div>
+
       <div class="proj-card pc2">
         <span class="proj-badge pb-olive">Cloud · AWS</span>
         <div class="proj-title">High Availability Web Architecture</div>
-        <div class="proj-desc">Designed a scalable, fault-tolerant cloud infrastructure using EC2, Auto Scaling Groups and Application Load Balancer, triggered automatically by CloudWatch metrics.</div>
-        <div class="stack-row"><span class="stag">AWS EC2</span><span class="stag">Auto Scaling</span><span class="stag">ALB</span><span class="stag">CloudWatch</span><span class="stag">VPC</span></div>
-        <div class="proj-links"><a href="https://github.com/S-aniya/aws-high-availability-architecture" class="plink plink-g">&#128279; GitHub</a></div>
+        <div class="proj-desc">Engineered a fault-tolerant, auto-scaling web infrastructure spanning 2 AWS Availability Zones. Auto Scaling Groups add/remove EC2 instances automatically based on CPU load, with CloudWatch alarms and an Application Load Balancer distributing traffic to healthy targets.</div>
+        <div class="stack-row"><span class="stag">AWS EC2</span><span class="stag">Auto Scaling</span><span class="stag">ALB</span><span class="stag">CloudWatch</span><span class="stag">VPC</span><span class="stag">Bash</span></div>
+        <div class="proj-links">
+          <a href="https://github.com/S-aniya/aws-high-availability-architecture" class="plink plink-g" target="_blank">&#128279; GitHub</a>
+        </div>
       </div>
+
       <div class="proj-card pc3">
         <span class="proj-badge pb-brown">Serverless · AWS</span>
         <div class="proj-title">Serverless Text-to-Speech Engine</div>
-        <div class="proj-desc">Built a fully serverless TTS application using AWS Lambda, API Gateway and Amazon Polly — hosted on S3 with secure IAM roles and CORS configuration.</div>
+        <div class="proj-desc">Automated a fully serverless TTS pipeline using AWS Lambda, API Gateway, and Amazon Polly — eliminating server management entirely. Audio files stored and served via S3, with IAM role-based access control and CORS configured for web access.</div>
         <div class="stack-row"><span class="stag">Lambda</span><span class="stag">API Gateway</span><span class="stag">Amazon Polly</span><span class="stag">S3</span><span class="stag">IAM</span></div>
-        <div class="proj-links"><span class="plink plink-g">Coming Soon</span></a></div>
+        <div class="proj-links">
+          <a href="https://github.com/S-aniya" class="plink plink-g" target="_blank">&#128279; GitHub</a>
+        </div>
       </div>
+
       <div class="proj-card pc4">
         <span class="proj-badge pb-fig">UI/UX Design</span>
         <div class="proj-title">Product UI Design @ Hustlee</div>
-        <div class="proj-desc">Designed end-to-end user interfaces at Hustlee — from wireframes to high-fidelity Figma prototypes — translating product requirements into beautiful, functional UI components.</div>
-        <div class="stack-row"><span class="stag">Figma</span><span class="stag">Wireframing</span><span class="stag">Prototyping</span><span class="stag">UX Research</span></div>
-        <div class="proj-links"><a href="https://linkedin.com/in/saniya-gupta-shasan20" class="plink">&#128279; LinkedIn</a></div>
+        <div class="proj-desc">Led end-to-end UI/UX design at Hustlee — a platform connecting startups and students. Designed user flows, wireframes, and high-fidelity Figma prototypes for core product screens, collaborating directly with developers on implementation.</div>
+        <div class="stack-row"><span class="stag">Figma</span><span class="stag">Wireframing</span><span class="stag">Prototyping</span><span class="stag">UX Research</span><span class="stag">Component Libraries</span></div>
+        <div class="proj-links">
+          <a href="https://linkedin.com/in/saniya-gupta-shasan20" class="plink" target="_blank">&#128279; LinkedIn</a>
+        </div>
       </div>
+
       <div class="proj-card pc5">
-        <span class="proj-badge pb-pink">Portfolio</span>
+        <span class="proj-badge pb-pink">Portfolio · Frontend</span>
         <div class="proj-title">This Portfolio Website</div>
-        <div class="proj-desc">Designed and built this personal portfolio from scratch — warm, minimal, recruiter-friendly, and distinctly personal. Because every developer deserves a beautiful home on the internet.</div>
-        <div class="stack-row"><span class="stag">HTML</span><span class="stag">CSS</span><span class="stag">JavaScript</span></div>
-        <div class="proj-links"><a href="https://github.com/S-aniya" class="plink plink-g">&#128279; GitHub</a></div>
+        <div class="proj-desc">Designed and coded this personal portfolio from scratch — warm, minimal, recruiter-friendly, and distinctly personal. Features a custom dark mode, scroll animations, and fully responsive layout. Because every developer deserves a beautiful home on the internet.</div>
+        <div class="stack-row"><span class="stag">HTML</span><span class="stag">CSS</span><span class="stag">JavaScript</span><span class="stag">Responsive Design</span></div>
+        <div class="proj-links">
+          <a href="https://github.com/S-aniya/S-aniya.github.io" class="plink plink-g" target="_blank">&#128279; GitHub</a>
+          <a href="https://s-aniya.github.io" class="plink" target="_blank">&#127760; Live</a>
+        </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -528,6 +565,12 @@ body.dark .pill:hover {
         <div class="ach-title">Graphic Design with Photoshop</div>
         <div class="ach-sub">Great Learning certified</div>
         <div class="ach-year">2024</div>
+      </div>
+      <div class="ach-card">
+        <div class="ach-icon-wrap">&#129302;</div>
+        <div class="ach-title">Claude 101 — Anthropic Education</div>
+        <div class="ach-sub">Certified by Anthropic · AI Foundations</div>
+        <div class="ach-year">2026</div>
       </div>
     </div>
   </div>
@@ -596,13 +639,15 @@ body.dark .pill:hover {
           <a href="tel:+918351924959" class="clink"><span class="clink-icon ci-pink">&#9743;</span>+91 83519 24959</a>
         </div>
       </div>
-      <div class="contact-form">
+      <div class="contact-form" id="contactForm">
         <div class="cf-title">Drop a message</div>
-        <input class="cf-input" type="text" placeholder="Your name" />
-        <input class="cf-input" type="email" placeholder="Your email" />
-        <input class="cf-input" type="text" placeholder="Subject" />
-        <textarea class="cf-input" rows="4" placeholder="Your message..."></textarea>
-        <button class="btn-fill" style="border:none;cursor:pointer;font-size:0.88rem">Send Message &#10148;</button>
+        <input class="cf-input" type="text" id="cf-name" placeholder="Your name" />
+        <input class="cf-input" type="email" id="cf-email" placeholder="Your email" />
+        <input class="cf-input" type="text" id="cf-subject" placeholder="Subject" />
+        <textarea class="cf-input" id="cf-message" rows="4" placeholder="Your message..."></textarea>
+        <button class="btn-fill" id="cf-submit" onclick="submitForm()" style="border:none;cursor:pointer;font-size:0.88rem">Send Message &#10148;</button>
+        <div id="cf-success" style="display:none;color:var(--olive2);font-size:0.85rem;font-weight:500;padding:0.5rem 0;">&#10003; Message sent! I'll reply within 24 hours ✉️</div>
+        <div id="cf-error" style="display:none;color:var(--pink3);font-size:0.82rem;padding:0.5rem 0;">Something went wrong. Please email me directly at saniyagupta1202@gmail.com</div>
       </div>
     </div>
   </div>
@@ -627,4 +672,39 @@ toggle.onclick = () => {
   document.body.classList.toggle("dark");
   toggle.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
 };
+
+async function submitForm() {
+  const name = document.getElementById('cf-name').value.trim();
+  const email = document.getElementById('cf-email').value.trim();
+  const subject = document.getElementById('cf-subject').value.trim();
+  const message = document.getElementById('cf-message').value.trim();
+
+  if (!name || !email || !message) {
+    alert('Please fill in your name, email, and message.');
+    return;
+  }
+
+  const btn = document.getElementById('cf-submit');
+  btn.textContent = 'Sending...';
+  btn.disabled = true;
+
+  try {
+    const res = await fetch('https://formspree.io/f/saniyagupta1202@gmail.com', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({ name, email, subject, message })
+    });
+
+    document.getElementById('cf-success').style.display = 'block';
+    document.getElementById('cf-name').value = '';
+    document.getElementById('cf-email').value = '';
+    document.getElementById('cf-subject').value = '';
+    document.getElementById('cf-message').value = '';
+    btn.textContent = 'Sent ✓';
+  } catch(err) {
+    document.getElementById('cf-error').style.display = 'block';
+    btn.textContent = 'Send Message ➤';
+    btn.disabled = false;
+  }
+}
 </script>
